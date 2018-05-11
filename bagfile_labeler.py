@@ -15,8 +15,8 @@ import rosbag
 class Window(QtGui.QDialog):
     topic_types = ["WrenchStamped"]
 
-    def __init__(self, parent=None,inbag = "./data/point_on_plane_2.bag",
-                 outbag = "./data/point_on_plane_1_out.bag",
+    def __init__(self, parent=None,inbag = "./data/cup_grasp1.bag",
+                 outbag = "./data/cup_grasp1_out.bag",
                  image_topic = "/usb_cam_node/image_raw",
                  signal_topic = "/ftmini40",labels_topic = "/labels"):
         super(Window, self).__init__(parent)
