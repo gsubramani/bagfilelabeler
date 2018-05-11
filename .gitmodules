@@ -1,0 +1,3 @@
+[submodule "bagfile_io"]
+	path = bagfile_io
+	url = git@github.com:gsubramani/bagfile_io.git
